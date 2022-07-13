@@ -1,0 +1,15 @@
+[package]
+name = "spy"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "spy"
+path = "src/lib.rs"
+
+[[bin]]
+name = "spi"
+path = "src/bin/spi.rs"
+
+[dependencies]
+common_macros = "0.1.1"
